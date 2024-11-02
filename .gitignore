@@ -1,0 +1,16 @@
+# ignore the pychace directory
+.\first_try\LibraryProject\__pychache__
+
+#ignore pyc files
+*.pyc
+
+#ignore pycache directories
+*/__pychache__
+
+#ignore sqlite database file
+*.sqlite3
+
+#other files
+*.log
+
+#ok...
