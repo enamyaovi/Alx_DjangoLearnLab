@@ -1,5 +1,3 @@
-# ignore the pychace directory
-.\first_try\LibraryProject\__pychache__
 
 #ignore pyc files
 *.pyc
