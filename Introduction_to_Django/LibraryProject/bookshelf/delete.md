@@ -6,8 +6,8 @@
 >>> Book.objects.all()
     # Expected Output: <QuerySet [Title: Nineteen Eighty-Four, Author: George Orwell, Year: 1949]>
 
-#Delete the book with the updated title "Nineteen eighty-four"
->>> Book.objects.filter(title='Nineteen eighty-four').delete()
+#Delete the book
+>>> Book.objects.all().delete()
     # Expected Output: (1, {'bookshelf.Book': 1})
 
 # Confirm deletion by retrieving all Book objects
