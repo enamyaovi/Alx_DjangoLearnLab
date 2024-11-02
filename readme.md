@@ -1,6 +1,7 @@
-Welcome to My Django Projects Repository
-Hello and welcome to my Django journey!
+# Welcome to My Django Projects Repository
 
+
+Hello and welcome to my Django journey!
 This repository is dedicated to all my Django projects, starting with this week's introduction to Django. 
 It’s been quite the adventure so far, with plenty of documentation reading, and yes—my head does hurt a bit from it all! 😅
 
