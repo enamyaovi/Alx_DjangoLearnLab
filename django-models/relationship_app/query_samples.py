@@ -6,7 +6,7 @@ import django
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Step 2: Set the environment variable to point to your project’s settings
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'LibraryProject.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django-models.LibraryProject.settings')
 
 # Initialize Django
 django.setup()
@@ -47,7 +47,7 @@ librarian1 = Librarian(name='John Doe', library= library1)
 librarian1.save()
 
 #Listing all the books in the Library
-print(library1.books.all())
+print(Library.objects.get(name='Alx Library', id=1))
 
 #Retrieving the Librarian at Library One
-print(library1.librarian)
+print(Librarian.objects.get(name='John Doe', id =1))
