@@ -47,7 +47,7 @@ librarian1 = Librarian(name='John Doe', library= library1)
 librarian1.save()
 
 #Listing all the books in the Library
-mylib = Library.objects.get(name='Alx Library')
+mylib = Library.objects.get(name='library_name')
 
 #Retrieving the Librarian at Library One
-print(Librarian.objects.get(name='Library_name', id =1))
+print(Librarian.objects.get(name='librarian_name'))
